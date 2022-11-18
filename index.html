@@ -7,11 +7,24 @@
     <title>GST</title>
   </head>
   <body>
-    <div>
-      <h1>GST Calculator</h1>
-      <input type="number" />
-      <input type="number" />
-      <button>click</button>
+    <div class="main">
+      <h1 id="head">GST Calculator</h1>
+      <label for="">Price</label>
+      <input
+        type="number"
+        placeholder="Enter Price"
+        required
+        id="price"
+      /><br /><br />
+      <label for="">Quantity</label>
+      <input
+        type="number"
+        placeholder="Enter Quantity"
+        required
+        id="quantity"
+      /><br /><br />
+      <button>OK</button>
+      <p id="result"></p>
     </div>
     <script src="gst.js"></script>
   </body>
